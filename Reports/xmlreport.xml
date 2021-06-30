@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="73.496631">
+<testcase classname="search functionality" name="Register and send mail from eLearning Site. Confirm the acknowledgement" time="33.75665">
+<system-out><![CDATA[Given User has launched the eLearning Site..................................passed
+When User clicks on the sign up button......................................passed
+Then User confirm follow courses checkbox is selected.......................passed
+And User enters the FirstName as "Ashu".....................................passed
+And User enters the LastName as "Sabnekar"..................................passed
+And User enters the email as "ashu@SDET.com"................................passed
+And User enters the username as "Ashu6".....................................passed
+And User enters the password as "ashu1982"..................................passed
+And User enters the confirm password as "ashu1982"..........................passed
+Then User clicks on register button.........................................passed
+And User Registration is successful.........................................passed
+Then User clicks on the Profile drop down at top right corner...............passed
+And User verifies the email address given as "ashu@SDET.com"................passed
+Then User clicks on the inbox link..........................................passed
+And User is redirected to Messages page.....................................passed
+Then User clicks on the compose message button..............................passed
+And User is directed to the compose email page..............................passed
+Then User enters the recepient email address as "ash".......................passed
+Then User enter the subject text as "Demo Mail".............................passed
+And User clicks on the Send Message button..................................passed
+Then User confimrs the acknowledgement......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search functionality" name="Register and send mail from eLearning Site. Confirm the acknowledgement 2" time="36.648997">
+<system-out><![CDATA[Given User has launched the eLearning Site..................................passed
+When User clicks on the sign up button......................................passed
+Then User confirm follow courses checkbox is selected.......................passed
+And User enters the FirstName as "Ashwin"...................................passed
+And User enters the LastName as "Chandar"...................................passed
+And User enters the email as "ashChan@SDET.com".............................passed
+And User enters the username as "Ashwin5"...................................passed
+And User enters the password as "ashwin1982"................................passed
+And User enters the confirm password as "ashwin1982"........................passed
+Then User clicks on register button.........................................passed
+And User Registration is successful.........................................passed
+Then User clicks on the Profile drop down at top right corner...............passed
+And User verifies the email address given as "ashChan@SDET.com".............passed
+Then User clicks on the inbox link..........................................passed
+And User is redirected to Messages page.....................................passed
+Then User clicks on the compose message button..............................passed
+And User is directed to the compose email page..............................passed
+Then User enters the recepient email address as "ash".......................passed
+Then User enter the subject text as "Demo Mail".............................passed
+And User clicks on the Send Message button..................................passed
+Then User confimrs the acknowledgement......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="search functionality" name="search functionality of google.com" time="3.090984">
+<system-out><![CDATA[Given user is on the goolge home page.......................................passed
+When user write "COVID" in the search box...................................passed
+And click on search button..................................................passed
+Then results should be displayed............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
