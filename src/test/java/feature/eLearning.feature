@@ -1,5 +1,5 @@
 Feature: search functionality
-
+//editing 
   Scenario Outline: Register and send mail from eLearning Site. Confirm the acknowledgement
     Given User has launched the eLearning Site 
     When User clicks on the sign up button
